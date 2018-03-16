@@ -12,6 +12,7 @@ return distance * 264;
 
 function distanceTravelledInFeet(starting, ending) {
 return calculateVertical(starting, ending);
+};
 
 function calculatesFarePrice(start, destination) {
   const distance = calculateVertical(start, destination);
