@@ -28,3 +28,7 @@ function calculatesFarePrice(start, destination) {
   return 'cannot travel that far'
 }
 };
+
+function calculateVertical(beginning, destination) {
+ return Math.abs((beginning - destination) * 264)
+};
